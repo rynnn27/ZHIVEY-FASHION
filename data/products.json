@@ -1,0 +1,116 @@
+[
+  {
+    "id": "PRD001",
+    "name": "Essential Oversized Tee",
+    "category": "Kaos",
+    "price": 125000,
+    "description": "Kaos oversized dengan material nyaman untuk gaya sehari-hari.",
+    "images": [
+      "assets/products/sample-tee.svg"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "sizes": [
+          {
+            "name": "S",
+            "stock": 8
+          },
+          {
+            "name": "M",
+            "stock": 12
+          },
+          {
+            "name": "L",
+            "stock": 10
+          },
+          {
+            "name": "XL",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "Cream",
+        "sizes": [
+          {
+            "name": "S",
+            "stock": 5
+          },
+          {
+            "name": "M",
+            "stock": 8
+          },
+          {
+            "name": "L",
+            "stock": 7
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "createdAt": "2026-10-30T00:00:00.000Z"
+  },
+  {
+    "id": "PRD002",
+    "name": "Everyday Shirt",
+    "category": "Kemeja",
+    "price": 189000,
+    "description": "Kemeja clean cut untuk tampilan kasual maupun smart casual.",
+    "images": [
+      "assets/products/sample-shirt.svg"
+    ],
+    "variants": [
+      {
+        "color": "White",
+        "sizes": [
+          {
+            "name": "M",
+            "stock": 8
+          },
+          {
+            "name": "L",
+            "stock": 8
+          },
+          {
+            "name": "XL",
+            "stock": 4
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "createdAt": "2026-10-29T00:00:00.000Z"
+  },
+  {
+    "id": "PRD003",
+    "name": "Classic Hoodie",
+    "category": "Hoodie",
+    "price": 245000,
+    "description": "Hoodie minimalis dengan potongan relaxed.",
+    "images": [
+      "assets/products/sample-hoodie.svg"
+    ],
+    "variants": [
+      {
+        "color": "Charcoal",
+        "sizes": [
+          {
+            "name": "M",
+            "stock": 6
+          },
+          {
+            "name": "L",
+            "stock": 10
+          },
+          {
+            "name": "XL",
+            "stock": 5
+          }
+        ]
+      }
+    ],
+    "status": "active",
+    "createdAt": "2026-10-28T00:00:00.000Z"
+  }
+]

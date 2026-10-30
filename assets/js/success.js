@@ -1,0 +1,3 @@
+document.write('<script src="assets/js/invoice.js"><\\/script>');
+const order=JSON.parse(sessionStorage.getItem('zhivey_last_order')||'null'),el=document.getElementById('order-info');
+if(!order){el.innerHTML='<p>Detail pesanan tidak ditemukan di sesi ini.</p>';document.getElementById('download-invoice').disabled=true}else{el.innerHTML=`<p><b>${escapeHtml(order.orderNumber)}</b></p><p>Total: <b>${rupiah(order.total)}</b></p><p class="small muted">Nota dapat diunduh di perangkat ini. Penjual juga dapat mengunduhnya dari dashboard admin.</p>`;document.getElementById('download-invoice').onclick=()=>downloadInvoice(order)}
